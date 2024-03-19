@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/RobotoMono-Regular.woff2') format('woff2'),
+        url('/RobotoMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Roboto Mono';
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size:1.1em;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+	background: ghostwhite;
+}
+
+body {
+	padding-top: 1.0em;
+	padding-left: 2.0em;
+	padding-right: 2.0em;
+	padding-bottom: 1.0em;
+}
+
+a {
+	color: #095b98;
+	text-decoration: underline;
+}
+
+.summary {
+	padding-top: 1.0em;
+	text-align: center;
+}
+
+.headshot {
+	padding-top: 1.5em;
+}
+
+.headshot img {
+	max-width: 10em;
+	display: inline-block;
+	border-radius: 9999px;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 2.0em;
+}
+
+.title {
+	font-size: 1.25em;
+	color: dimgray;
+}
+
+.links {
+	padding-top: 1.0em;
+}
+
+.links a {
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+.section {
+	padding-top: 1.0em;
+}
+
+@media (min-width: 640px) {
+	.summary {
+		display: flex;
+		flex-direction: row;
+		text-align: left;
+	}
+
+	.description {
+		flex-basis: 50%;
+		padding-top: 3.0em;
+	}
+
+	.headshot {
+		flex-basis: 50%;
+		padding-top: .75em;
+	}
+
+	.headshot img {
+		max-width: 12em;
+	}
+
+	.links a {
+		padding-left: 0em;
+		padding-right: 1.0em;
+	}
+}
