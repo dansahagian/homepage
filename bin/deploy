@@ -1,5 +1,5 @@
 #!/bin/zsh
 
 echo "\nDeploying...\n"
-ssh dasa "cd /opt/homepage && git pull origin main"
-ssh dasa "/opt/homepage/bin/deploy_on_server"
+ssh homepage "cd /opt/homepage && git pull origin main"
+ssh homepage "/opt/homepage/bin/deploy_on_server"
