@@ -42,6 +42,12 @@ def home(request):
     return render(request, "home.html")
 
 
+@require_GET
+def work(request):
+    return render(request, "work.html")
+
+
+@require_GET
 def email(request):
     return render(request, "email.html")
 
@@ -60,5 +66,6 @@ urlpatterns = [
     path("RobotoMono-Regular.woff", font_file),
     path("RobotoMono-Regular.woff2", font_file),
     path("", home, name="home"),
+    path("work", work, name="work"),
     path("email", email, name="email")
 ]

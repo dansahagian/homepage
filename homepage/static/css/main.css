@@ -67,8 +67,8 @@ a {
 }
 
 .links a {
-	padding-left: .5em;
-	padding-right: .5em;
+	padding-left: .75em;
+	padding-right: .75em;
 }
 
 .section {
@@ -98,6 +98,6 @@ a {
 
 	.links a {
 		padding-left: 0em;
-		padding-right: 1.0em;
+		padding-right: 1.5em;
 	}
 }
