@@ -48,8 +48,8 @@ def work(request):
 
 
 @require_GET
-def contact(request):
-    return render(request, "contact.html")
+def email(request):
+    return render(request, "email.html")
 
 
 urlpatterns = [
@@ -67,5 +67,5 @@ urlpatterns = [
     path("RobotoMono-Regular.woff2", font_file),
     path("", home, name="home"),
     path("work", work, name="work"),
-    path("contact", contact, name="contact")
+    path("email", email, name="email")
 ]

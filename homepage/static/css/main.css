@@ -83,12 +83,12 @@ a {
 	}
 
 	.description {
-		flex-basis: 50%;
+		flex-basis: 60%;
 		padding-top: 3.0em;
 	}
 
 	.headshot {
-		flex-basis: 50%;
+		flex-basis: 40%;
 		padding-top: .75em;
 	}
 
@@ -98,6 +98,6 @@ a {
 
 	.links a {
 		padding-left: 0em;
-		padding-right: 1.25em;
+		padding-right: 1.0em;
 	}
 }
