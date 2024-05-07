@@ -66,6 +66,5 @@ urlpatterns = [
     path("RobotoMono-Regular.woff", font_file),
     path("RobotoMono-Regular.woff2", font_file),
     path("", home, name="home"),
-    path("work", work, name="work"),
     path("email", email, name="email")
 ]
