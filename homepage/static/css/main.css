@@ -38,7 +38,6 @@ a {
 }
 
 .summary {
-	padding-top: 1.0em;
 	text-align: center;
 }
 
@@ -47,7 +46,7 @@ a {
 }
 
 .headshot img {
-	max-width: 10em;
+	max-width: 9em;
 	display: inline-block;
 	border-radius: 9999px;
 }
