@@ -72,7 +72,7 @@ a {
 }
 
 .section {
-	padding-top: 1.0em;
+	padding-top: .50em;
 }
 
 @media (min-width: 640px) {

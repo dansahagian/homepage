@@ -1,5 +1,5 @@
 from django.http import HttpResponse, FileResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.urls import path
 from django.views.decorators.cache import cache_control
 from django.views.decorators.http import require_GET
@@ -7,10 +7,49 @@ from django.views.decorators.http import require_GET
 from homepage import settings
 
 ROBOTS_TXT_CONTENT = """\
-User-Agent: *
+User-agent: GPTBot
 Disallow: /
 
+# OpenAI, ChatGPT
+# https://platform.openai.com/docs/gptbot
 User-agent: GPTBot
+Disallow: /
+
+# Google AI (Bard, etc)
+# https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+User-agent: Google-Extended
+Disallow: /
+
+# Block common crawl
+# I have mixed feelings on this one, but many models are trained on this data
+# It is also used to bootstrap new search indices though
+# https://commoncrawl.org/ccbot
+User-agent: CCBot
+Disallow: /
+
+# Facebook
+# https://developers.facebook.com/docs/sharing/bot/
+User-agent: FacebookBot
+Disallow: /
+
+# Cohere.ai
+# https://darkvisitors.com/agents/cohere-ai
+User-agent: cohere-ai
+Disallow: /
+
+# Perplexity
+# https://docs.perplexity.ai/docs/perplexitybot
+User-agent: PerplexityBot
+Disallow: /
+
+# Anthropic
+# https://darkvisitors.com/agents/anthropic-ai
+User-agent: anthropic-ai
+Disallow: /
+
+# ...also anthropic
+# https://darkvisitors.com/agents/claudebot
+User-agent: ClaudeBot
 Disallow: /
 """
 
@@ -44,7 +83,7 @@ def home(request):
 
 @require_GET
 def work(request):
-    return render(request, "work.html")
+    return redirect("https://linkedin.com/in/dansahagian")
 
 
 @require_GET
@@ -66,5 +105,6 @@ urlpatterns = [
     path("RobotoMono-Regular.woff", font_file),
     path("RobotoMono-Regular.woff2", font_file),
     path("", home, name="home"),
-    path("email", email, name="email")
+    path("email", email, name="email"),
+    path("work", work, name="work")
 ]
