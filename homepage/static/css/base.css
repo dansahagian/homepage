@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('../fonts/RobotoMono-Regular.woff2') format('woff2'),
+        url('../fonts/RobotoMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Roboto Mono';
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size:1.1em;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+	background: var(--background);
+	color: var(--body-color);
+	text-align: center;
+}
+
+body {
+	padding: 1.0em 2.0em 20.0em;
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: underline;
+}
+
+strong {
+	color: var(--strong-color);
+}
+
+.top-flex {
+	padding-top: 1.0em;
+}
+
+.logo-flex {
+	font-weight: bold;
+	font-size: 1.65em;
+}
+
+.logo-flex a {
+	text-decoration: none;
+	color: var(--body-color);
+}
+
+.logo-flex svg {
+	max-width: .75em;
+	max-height: .75em;
+}
+
+.nav-flex {
+	padding-top: .75em;
+}
+
+.nav-flex a {
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+.center-flex {
+	padding-top: 2.0em;
+}
+
+.summary-flex {
+	padding-top: 1.0em;
+}
+
+.headshot {
+	padding-top: 1.5em;
+}
+
+.headshot img {
+	max-width: 9em;
+	display: inline-block;
+	border-radius: 9999px;
+}
+
+.greeting {
+	font-size: 1.35em;
+}
+
+.titles {
+	padding-top: .5em;
+}
+
+.links {
+	padding-top: .5em;
+}
+
+.links a {
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+.section {
+	padding-top: 1.0em;
+	text-align: left;
+}
+
+.footer {
+	text-align: center;
+	padding-top: 5.0em;
+	font-size: .90em;
+}
+
+.current {
+	color: var(--body-color);
+	text-decoration: none;
+}
+
+@media (min-width: 640px) {
+	.top-flex {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+        justify-content: center;
+	}
+
+	.logo-flex {
+		flex-basis: 50%;
+		text-align: left;
+	}
+
+	.nav-flex {
+		padding-top: 0.0em;
+		flex-basis: 50%;
+		text-align: right;
+	}
+
+	.center-flex {
+		display: flex;
+		flex-direction: row;
+		padding-top: 4.0em;
+	}
+
+	.summary-flex {
+		flex-basis: 65%;
+		text-align: left;
+		padding-left: 2.0em;
+		padding-top: 1.5em;
+	}
+
+	.headshot-flex {
+		flex-basis: 35%;
+		text-align: right;
+	}
+
+	.nav-flex a {
+		padding-left: 0.0em;
+		padding-right: 1.0em;
+	}
+
+	.links a {
+		padding-left: 0.0em;
+		padding-right: 1.0em;
+	}
+}

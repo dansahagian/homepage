@@ -1,0 +1,8 @@
+@import url(base.css);
+
+:root {
+    --background: #e3e3e3;
+    --body-color: #1f2023;
+    --link-color: #0e5291;
+    --strong-color: #0d710d;
+}

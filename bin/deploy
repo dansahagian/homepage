@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+echo "\nDeploying...\n"
+ssh linode "cd /opt/homepage && git pull origin main"
+ssh linode "/opt/homepage/bin/deploy_on_server"

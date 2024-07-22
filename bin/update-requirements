@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+uv pip compile --upgrade --generate-hashes --output-file requirements/prod.txt requirements/in/prod.in
+uv pip compile --upgrade --generate-hashes --output-file requirements/dev.txt requirements/in/dev.in

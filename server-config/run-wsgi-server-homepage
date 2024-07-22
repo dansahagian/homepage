@@ -1,0 +1,5 @@
+DATE=`date '+%Y-%m-%d %H:%M:%S'`
+echo "homepage wsgi started at ${DATE}" | systemd-cat -p info
+
+cd /opt/homepage
+DJANGO_SETTINGS_MODULE=homepage.settings /opt/homepage/venv/bin/python -m gunicorn -b :8001 homepage.wsgi

@@ -1,0 +1,91 @@
+{% extends "./base.html" %}
+    {% block content %}
+        <div class="top-flex">
+            <div class="logo-flex">
+                <a href="{% url 'home' %}">dan sahagian</a>
+                {% if theme == "light" %}
+                    <a href="{% url 'theme' %}">
+                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </a>
+                {% else %}
+                    <a href="{% url 'theme' %}">
+                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </a>
+                {% endif %}
+            </div>
+            <div class="nav-flex">
+                <a href="{% url 'about' %}">about</a>
+                <a class="current" href="{% url 'work' %}">work</a>
+                <a href="{% url 'contact' %}">contact</a>
+            </div>
+        </div>
+        <div class="section">
+            <h3 id="work">Work</h3>
+            <p>
+                2022 to now: The Manager
+            <p>
+                In April 2024, I joined <a href="https://getdbt.com">dbt Labs</a> as an Engineering
+                Manager <strong>leading the team</strong> that builds
+                <a href="https://www.getdbt.com/product/dbt-explorer">dbt Explorer</a>.
+            </p>
+            <p>
+                Before that, I spent 2 years as an Engineering Manager at
+                <a href="https://spotify.com">Spotify</a> after they
+                <a href="https://newsroom.spotify.com/2022-02-16/spotify-acquires-podsights-and-chartable-to-advance-podcast-measurement-for-advertisers-and-insights-for-publishers/">acquired</a>
+                Podsights. I <strong>grew our initial team</strong> of 4 engineers to 8 in
+                just 5 months after the acquisition. <strong>Building and leading</strong> such an
+                amazing team is a highlight of my career.
+            </p>
+            <br>
+            <p>2019 to 2022: The Engineer</p>
+            <p>
+                In October 2020, I joined Podsights as <strong>employee #11</strong> and started
+                working on our <strong>Django</strong> backend and <strong>GraphQL</strong> API.
+                I was able to <strong>lead recruiting</strong> for a few roles, work closely with
+                sales, and ship so many features. A few months before we were acquired, I was
+                <strong>promoted to Team Lead</strong>.
+            </p>
+            <p>
+                Before that, I spent 18 months at <a href="https://www.realpage.com/">RealPage</a>
+                as a Software Engineer working on a <strong>Django</strong> backend with a
+                <strong>REST</strong> API.
+            </p>
+            <br>
+            <p>2005 to 2019: The Analyst</p>
+            <p>
+                In this first arc of my career, I worked mostly in investment operations and
+                trading. In January 2008, I joined
+                <a href="https://bostonadvisors.com">Boston Advisors</a> where I would stay for
+                <strong>over a decade</strong>. As a Systems Analyst, I started
+                <strong>building internal tools</strong> using Excel and VBA before moving on to use
+                <strong>Python, Flask, and SQL</strong>. In what would be my final year at the
+                company before I tried consulting, I joined the Quant Team as a Software Developer.
+            </p>
+            <p>
+                Before that, I was a Hedge Fund Accountant and worked briefly as a Day Trader.
+            </p>
+            <br>
+            <p>2005: The Graduate</p>
+                I graduated Magna Cum Laude from <a href="https://www.northeastern.edu/">Northeastern University</a><br>
+                where I earned my <strong>Bachelor of Science in Mathematics</strong>.
+            </p>
+
+        </div>
+
+    {% endblock %}

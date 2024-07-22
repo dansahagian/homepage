@@ -1,0 +1,9 @@
+[Unit]
+Description=homepage wsgi
+
+[Service]
+User=dan
+ExecStart=/usr/bin/zsh /usr/local/bin/run-wsgi-server-homepage
+
+[Install]
+WantedBy=multi-user.target
