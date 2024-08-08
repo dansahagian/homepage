@@ -95,21 +95,21 @@ def contact(request):
         context["form"] = ContactForm()
         return render(request, "contact.html", context=context)
 
-    if request.method == "POST":
-        form = ContactForm(request.POST)
-
-        if form.is_valid():
-            math_question = form.cleaned_data["math_question"]
-            email = form.cleaned_data["email"]
-            message = form.cleaned_data["message"]
-
-            if math_question == 3:
-                send_email(email, message)
-                return render(request, "contact_success.html")
-            else:
-                return render(request, "contact_failure.html")
-
-        return redirect(reverse("home"))
+    # if request.method == "POST":
+    #     form = ContactForm(request.POST)
+    #
+    #     if form.is_valid():
+    #         math_question = form.cleaned_data["math_question"]
+    #         email = form.cleaned_data["email"]
+    #         message = form.cleaned_data["message"]
+    #
+    #         if math_question == 3:
+    #             send_email(email, message)
+    #             return render(request, "contact_success.html")
+    #         else:
+    #             return render(request, "contact_failure.html")
+    #
+    #     return redirect(reverse("home"))
 
 
 @require_GET
