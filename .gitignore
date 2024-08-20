@@ -1,4 +1,5 @@
 .DS_Store
+prod.env
 .env
 .idea/
 venv/

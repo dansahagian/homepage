@@ -14,3 +14,5 @@ sudo systemctl stop wsgi-server-homepage.service
 
 echo "\nStarting services...\n"
 sudo systemctl start wsgi-server-homepage.service
+
+sleep 2

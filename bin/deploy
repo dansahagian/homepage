@@ -1,5 +1,28 @@
 #!/bin/zsh
 
+run_command() {
+    local check="$1"
+    shift
+    if ! "$@"; then
+        echo -e "\n\n❌ Failed Deployment $check\n"
+        exit 1
+    fi
+}
+
+echo -e "\nLinting and Formatting 🐍 ...\n"
+
+run_command "linting" .venv/bin/ruff check .
+run_command "imports" .venv/bin/ruff check --select I
+run_command "format" .venv/bin/ruff format --check
+
 echo "\nDeploying...\n"
-ssh linode "cd /opt/homepage && git pull origin main"
-ssh linode "/opt/homepage/bin/deploy_on_server"
+
+rsync -a ./homepage dan@linode:/opt/homepage
+rsync -a ./requirements dan@linode:/opt/homepage
+rsync -a ./manage.py dan@linode:/opt/homepage
+rsync -a ./bin dan@linode:/opt/homepage
+rsync -a ./prod.env dan@linode:/opt/homepage/.env
+
+ssh linode /opt/homepage/bin/deploy_on_server
+
+curl -X GET -I https://dasa.dev

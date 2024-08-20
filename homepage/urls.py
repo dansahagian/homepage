@@ -1,6 +1,3 @@
-import smtplib
-from email.mime.text import MIMEText
-
 from django import forms
 from django.http import FileResponse
 from django.shortcuts import redirect, render, reverse
@@ -8,14 +5,7 @@ from django.urls import path
 from django.views.decorators.cache import cache_control
 from django.views.decorators.http import require_GET
 
-from homepage.settings import (
-    BASE_DIR,
-    ENV,
-    SMTP_PASSWORD,
-    SMTP_SENDER,
-    SMTP_SERVER,
-    SMTP_USER,
-)
+from homepage.settings import BASE_DIR, ENV
 
 
 class ContactForm(forms.Form):
@@ -33,19 +23,19 @@ class ContactForm(forms.Form):
     )
 
 
-def send_email(email, message):
-    message = f"{email}\n\n{message}"
-    msg = MIMEText(message)
-    msg["Subject"] = "Website Contact Form"
-    msg["From"] = SMTP_SENDER
-    msg["To"] = SMTP_SENDER
-
-    conn = smtplib.SMTP_SSL(SMTP_SERVER)
-    conn.login(SMTP_USER, SMTP_PASSWORD)
-    try:
-        conn.sendmail(SMTP_SENDER, [SMTP_SENDER], msg.as_string())
-    finally:
-        conn.quit()
+# def send_email(email, message):
+#     message = f"{email}\n\n{message}"
+#     msg = MIMEText(message)
+#     msg["Subject"] = "Website Contact Form"
+#     msg["From"] = SMTP_SENDER
+#     msg["To"] = SMTP_SENDER
+#
+#     conn = smtplib.SMTP_SSL(SMTP_SERVER)
+#     conn.login(SMTP_USER, SMTP_PASSWORD)
+#     try:
+#         conn.sendmail(SMTP_SENDER, [SMTP_SENDER], msg.as_string())
+#     finally:
+#         conn.quit()
 
 
 @require_GET
