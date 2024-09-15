@@ -11,14 +11,15 @@ run_command() {
 
 echo -e "\nLinting and Formatting 🐍 ...\n"
 
-run_command "linting" .venv/bin/ruff check .
-run_command "imports" .venv/bin/ruff check --select I
-run_command "format" .venv/bin/ruff format --check
+run_command "linting" ruff check .
+run_command "imports" ruff check --select I
+run_command "format" ruff format --check
 
 echo "\nDeploying...\n"
 
 rsync -a ./homepage dan@linode:/opt/homepage
-rsync -a ./requirements dan@linode:/opt/homepage
+rsync -a ./pyproject.toml dan@linode:/opt/homepage
+rsync -a ./uv.lock dan@linode:/opt/homepage
 rsync -a ./manage.py dan@linode:/opt/homepage
 rsync -a ./bin dan@linode:/opt/homepage
 rsync -a ./prod.env dan@linode:/opt/homepage/.env

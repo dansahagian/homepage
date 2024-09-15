@@ -1,4 +1,6 @@
-#!/bin/zsh
+#!/usr/bin/env sh
 
-.venv/bin/ruff check --select I --fix
-.venv/bin/ruff format
+rm -rf .venv
+uv venv
+uv sync
+pre-commit install

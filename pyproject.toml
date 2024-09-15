@@ -1,0 +1,27 @@
+[project]
+name = "homepage"
+version = "1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.1.1",
+    "gunicorn>=23.0.0",
+    "python-decouple>=3.8",
+]
+
+[tool.ruff]
+line-length = 99
+target-version = "py312"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+exclude = [
+    ".git",
+    ".pytest_cache",
+    ".ruff_cache",
+    "venv",
+    ".venv",
+]

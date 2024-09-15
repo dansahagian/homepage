@@ -1,4 +1,0 @@
--r base.in
-ipython
-ruff
-pre-commit
