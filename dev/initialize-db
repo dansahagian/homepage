@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+ssh dan@linode "pg_dump -U homepage homepage > /tmp/homepage_dump"
+scp dan@linode:/tmp/homepage_dump ~/d/code/dansahagian/homepage/tmp/homepage_dump
+ssh dan@linode "rm /tmp/homepage_dump"
+
+psql -U postgres -d homepage -c "DROP SCHEMA IF EXISTS public CASCADE;"
+psql -U postgres -d postgres -c "DROP DATABASE homepage;"
+psql -U postgres -d postgres -c "DROP ROLE homepage;"
+psql -U postgres -d postgres -c "CREATE DATABASE homepage;"
+psql -U postgres -d postgres -c "CREATE ROLE homepage WITH PASSWORD 'password';"
+psql -U postgres -d postgres -c "ALTER ROLE homepage WITH CREATEDB LOGIN;"
+psql -U postgres -d postgres -c "GRANT ALL ON DATABASE homepage to homepage;"
+psql -U postgres -d homepage -c "DROP SCHEMA IF EXISTS public;"
+psql -U postgres -d homepage -c "CREATE SCHEMA IF NOT EXISTS public AUTHORIZATION homepage;"
+
+psql homepage < ~/d/code/dansahagian/homepage/tmp/homepage_dump

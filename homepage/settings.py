@@ -15,6 +15,7 @@ ALLOWED_HOSTS = ["dasa.dev"]
 SECURE_SSL_REDIRECT = False
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
+USE_X_FORWARDED_HOST = True
 
 CSRF_TRUSTED_ORIGINS = ["https://dasa.dev"]
 
@@ -27,6 +28,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django_extensions",
+    "homepage.core",
 ]
 
 MIDDLEWARE = [
@@ -65,8 +68,11 @@ WSGI_APPLICATION = "homepage.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": config("PGDATABASE"),
+        "USER": config("PGUSER"),
+        "PASSWORD": config("PGPASSWORD"),
+        "HOST": config("PGHOST", default="127.0.0.1"),
     }
 }
 
