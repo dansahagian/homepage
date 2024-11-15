@@ -28,7 +28,7 @@ html {
 }
 
 body {
-	padding: 1.0em 2.0em 20.0em;
+	padding: 1.0em 1.0em 20.0em;
 }
 
 a {
@@ -60,7 +60,7 @@ strong {
 
 .greeting {
 	font-weight: bold;
-	font-size: 1.65em;
+	font-size: 1.55em;
 }
 
 .greeting a {
@@ -75,10 +75,11 @@ strong {
 
 .titles {
 	padding-top: .5em;
+	font-size: .95em;
 }
 
 .section {
-	padding-top: 1.0em;
+	padding-top: 2.0em;
 	text-align: left;
 }
 
@@ -97,12 +98,20 @@ strong {
 	.summary-flex {
 		flex-basis: 65%;
 		text-align: left;
-		padding-left: 2.0em;
-		padding-top: 2.0em;
+		padding-left: 1.0em;
+		padding-top: 2.5em;
 	}
 
 	.headshot-flex {
 		flex-basis: 35%;
-		text-align: right;
+		text-align: left;
+	}
+
+	.greeting {
+		font-size: 1.65em;
+	}
+
+	.titles {
+		font-size: 1.0em;
 	}
 }
