@@ -40,27 +40,11 @@ def home(request):
 
 
 @require_GET
-def about(request):
-    log_request(request)
-
-    context = get_theme_context(request)
-    return render(request, "about.html", context=context)
-
-
-@require_GET
 def work(request):
     log_request(request)
 
     context = get_theme_context(request)
     return render(request, "work.html", context=context)
-
-
-@require_GET
-def contact(request):
-    log_request(request)
-
-    context = get_theme_context(request)
-    return render(request, "contact.html", context=context)
 
 
 @require_GET
