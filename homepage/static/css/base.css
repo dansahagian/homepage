@@ -60,7 +60,7 @@ strong {
 
 .greeting {
 	font-weight: bold;
-	font-size: 1.55em;
+	font-size: 1.65em;
 }
 
 .greeting a {
@@ -75,7 +75,7 @@ strong {
 
 .titles {
 	padding-top: .5em;
-	font-size: .95em;
+	font-size: 1.0em;
 }
 
 .section {
@@ -105,13 +105,5 @@ strong {
 	.headshot-flex {
 		flex-basis: 35%;
 		text-align: left;
-	}
-
-	.greeting {
-		font-size: 1.65em;
-	}
-
-	.titles {
-		font-size: 1.0em;
 	}
 }
