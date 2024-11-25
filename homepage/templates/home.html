@@ -40,33 +40,11 @@
                     Husband · Coder · Nerd<br>
                     New Englander in California<br>
                 </div>
+                <div class="about-nav">
+                    <a href="{% url 'about' %}">about</a>
+                    <a href="{% url 'work' %}">work</a>
+                    <a href="{% url 'contact' %}">contact</a>
+                </div>
             </div>
         </div>
-        <div class="section">
-            <p>
-                I'm a technology nerd who builds things, often with Python and Django. You can check
-                out my code on <a href="https://github.com/dansahagian">GitHub</a>. I'm interested in
-                finance, education, and privacy.
-            </p>
-            <p>
-                I've had a few stages of my career and as of November 2024, I'm in The Explorer
-                stage. I'm taking a break and following my curiosity. You can read more about my
-                work and what I'm up to <a href="{% url 'work' %}">here</a>.
-            </p>
-            <p>
-                Away from the keyboard, I love spending time with my amazing wife and our 
-                rambunctious husky. I enjoy lifting weights, cooking, and riding my motorcycle.
-                Sometimes, I play the guitar poorly.
-            </p>
-            <p>
-                You can follow me on <a href="https://fosstodon.org/@dansahagian">mastodon</a> or 
-                email me at dan@<a href="{% url 'home' %}">dasa.dev</a>. Let's connect on
-                <a href="https://linkedin.com/in/dansahagian">linkedin</a> if we know each other
-                professionally.
-            </p>
-        </div>
-        <div class="footer">
-            Made with 🧠 & 💻 in California
-        </div>
-
     {% endblock %}

@@ -1,8 +1,12 @@
 {% extends "./base.html" %}
     {% block content %}
+        <div class="nav">
+            <a href="{% url 'home' %}">home</a>
+            <a href="{% url 'about' %}">about</a>
+            <a href="{% url 'contact' %}">contact</a>
+        </div>
         <div class="section">
-            <p><a href="{% url 'home' %}">Dan Sahagian</a>:Work</p>
-            <br>
+            <h2>Work</h2>
             <p>2024 to now: The Explorer</p>
             <p>
                 I'm currently trading options, exploring ideas, and coding just for the fun of it.

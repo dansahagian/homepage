@@ -1,0 +1,26 @@
+{% extends "./base.html" %}
+    {% block content %}
+        <div class="nav">
+            <a href="{% url 'home' %}">home</a>
+            <a href="{% url 'work' %}">work</a>
+            <a href="{% url 'contact' %}">contact</a>
+        </div>
+        <div class="section">
+            <h2>About</h2>
+            <p>
+                I'm a technology nerd who builds things, often with Python and Django. You can check
+                out my code on <a href="https://github.com/dansahagian">GitHub</a>. I'm interested in
+                finance, education, and privacy.
+            </p>
+            <p>
+                I've had a few stages of my career and as of November 2024, I'm in The Explorer
+                stage. I'm taking a break and following my curiosity. You can read more about what
+                I'm up to and my <a href="{% url 'work' %}">work</a>.
+            </p>
+            <p>
+                Away from the keyboard, I love spending time with my amazing wife and our 
+                rambunctious husky. I enjoy lifting weights, cooking, and riding my motorcycle.
+                Sometimes, I play the guitar poorly.
+            </p>
+        </div>
+    {% endblock %}
