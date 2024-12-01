@@ -28,9 +28,7 @@ html {
 }
 
 body {
-	padding-left: 2.0em;
-	padding-right: 2.0em;
-	padding-bottom: 2.0em;
+	padding: 2.0em;
 }
 
 a {
@@ -42,19 +40,9 @@ strong {
 	color: var(--strong-color);
 }
 
-.theme {
-	padding-top: .5em;
-	font-size: 1.65em;
-}
-
 .theme a {
 	text-decoration: none;
 	color: var(--body-color);
-}
-
-.theme svg {
-	max-width: .75em;
-	max-height: .75em;
 }
 
 .center-flex {
