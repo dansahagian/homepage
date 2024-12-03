@@ -3,7 +3,7 @@ name = "homepage"
 version = "1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
     "django-extensions>=3.2.3",
     "django>=5.1.1",
@@ -15,7 +15,7 @@ dependencies = [
 
 [tool.ruff]
 line-length = 99
-target-version = "py312"
+target-version = "py313"
 
 [tool.ruff.format]
 quote-style = "double"
