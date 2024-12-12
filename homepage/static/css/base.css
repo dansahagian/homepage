@@ -50,7 +50,7 @@ strong {
 }
 
 .headshot {
-	padding-top: 1.0em;
+	padding-top: 1.5em;
 }
 
 .headshot img {
@@ -99,7 +99,7 @@ strong {
 	.summary-flex {
 		flex-basis: 70%;
 		text-align: left;
-		padding-top: 2.5em;
+		padding-top: 1.0em;
 		padding-right: 1.0em;
 	}
 
