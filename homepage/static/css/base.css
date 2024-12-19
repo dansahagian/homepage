@@ -50,7 +50,7 @@ strong {
 }
 
 .headshot {
-	padding-top: 1.5em;
+	padding-top: 2.0em;
 }
 
 .headshot img {
@@ -91,24 +91,33 @@ strong {
 }
 
 @media (min-width: 640px) {
+	html {
+		max-width: 45rem;
+	}
+
 	.center-flex {
 		display: flex;
 		flex-direction: row;
 	}
 
 	.summary-flex {
-		flex-basis: 70%;
+		flex-basis: 60%;
 		text-align: left;
-		padding-top: 1.0em;
-		padding-right: 1.0em;
+		padding-top: 3.0em;
+		padding-right: 2.0em;
+		white-space: nowrap;
 	}
 
 	.headshot {
 		padding-top: 0.0em;
+		text-align: left;
+	}
+
+	.headshot img {
+		max-width: 13em;
 	}
 
 	.headshot-flex {
-		flex-basis: 30%;
-		text-align: right;
+		flex-basis: 40%;
 	}
 }
