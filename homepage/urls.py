@@ -4,7 +4,7 @@ from django.urls import path
 from django.views.decorators.cache import cache_control
 from django.views.decorators.http import require_GET
 
-from homepage.core.views import home, theme, work
+from homepage.core.views import fmoney, home, theme, work
 from homepage.settings import BASE_DIR, ENV
 
 
@@ -32,6 +32,7 @@ handler404 = error_404
 urlpatterns = [
     path("", home, name="home"),
     path("work", work, name="work"),
+    path("fmoney", fmoney, name="fmoney"),
     path("theme", theme, name="theme"),
 ]
 

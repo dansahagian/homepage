@@ -1,0 +1,27 @@
+{% extends "./base.html" %}
+    {% block content %}
+        <div class="section">
+            <p><a href="{% url 'home' %}">home</a>/fmoney</p>
+            <p>
+                F Money Podcast - We stopped shipping new episodes in February 2025 after 10
+                episodes. This is an archive of the feed so that it didn't disappear from the
+                internet.
+            </p>
+            <div class="coverart">
+                <p>https://dasa.dev/fmoney/feed</p>
+                <img
+                    src="https://dasa.dev/fmoney/coverart.png"
+                    alt="Podcast Cover Art with a stock chart and robotic pig"
+                >
+            </div>
+            <p>Learn the personal finance lessons you wish you’d been taught in high school!</p>
+            <p>
+                In this engaging weekly podcast, we tackle essential money topics to help you take
+                control of your finances. With three distinct perspectives — a seasoned accountant,
+                a hobbyist investor, and a curious learner — we break down budgeting, investing,
+                saving, and more in a way that’s practical, relatable, and fun. Whether you're just
+                starting out or looking to refine your financial know-how, join us each week for
+                expert tips, honest questions, and actionable advice to take control of your money.
+            </p>
+        </div>
+    {% endblock %}

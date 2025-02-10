@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="stylesheet.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <atom:link rel="self" type="application/atom+xml" href="https://dasa.dev/fmoney/feed" title="MP3 Audio"/>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+    <podcast:podping usesPodping="true"/>
+    <title>F Money</title>
+    <generator>Transistor (https://transistor.fm)</generator>
+    <itunes:new-feed-url>https://dasa.dev/fmoney/feed</itunes:new-feed-url>
+    <description>Learn the personal finance lessons you wish you’d been taught in high school! In this engaging weekly podcast, we tackle essential money topics to help you take control of your finances. With three distinct perspectives—a seasoned accountant, a hobbyist investor, and a curious learner—we break down budgeting, investing, saving, and more in a way that’s practical, relatable, and fun.</description>
+    <copyright>2025 Dan Sahagian</copyright>
+    <podcast:guid>eebdbd84-6b24-53ac-b309-88e16db6a15c</podcast:guid>
+    <podcast:locked owner="hello@dasa.dev">no</podcast:locked>
+    <podcast:trailer pubdate="Mon, 25 Nov 2024 17:01:12 -0800" url="https://dasa.dev/episodes/01.mp3" length="1598046" type="audio/mpeg">Trailer</podcast:trailer>
+    <language>en</language>
+    <pubDate>Mon, 03 Feb 2025 08:17:09 -0800</pubDate>
+    <lastBuildDate>Mon, 03 Feb 2025 08:17:23 -0800</lastBuildDate>
+    <link>https://dasa.dev/fmoney</link>
+    <image>
+      <url>https://dasa.dev/fmoney/coverart.png</url>
+      <title>F Money</title>
+      <link>https://dasa.dev/fmoney</link>
+    </image>
+    <itunes:category text="Education">
+      <itunes:category text="How To"/>
+    </itunes:category>
+    <itunes:category text="Society &amp; Culture"/>
+    <itunes:type>serial</itunes:type>
+    <itunes:author>Dan, Sarah, Jon</itunes:author>
+    <itunes:image href="https://dasa.dev/fmoney/coverart.png"/>
+    <itunes:summary>Learn the personal finance lessons you wish you’d been taught in high school! In this engaging weekly podcast, we tackle essential money topics to help you take control of your finances. With three distinct perspectives—a seasoned accountant, a hobbyist investor, and a curious learner—we break down budgeting, investing, saving, and more in a way that’s practical, relatable, and fun.</itunes:summary>
+    <itunes:subtitle>Learn the personal finance lessons you wish you’d been taught in high school.</itunes:subtitle>
+    <itunes:keywords>personal finance, budgeting, investing, retirement, comedy</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>Dan Sahagian</itunes:name>
+    </itunes:owner>
+    <itunes:complete>No</itunes:complete>
+    <itunes:explicit>No</itunes:explicit>
+    <item>
+      <title>Trailer</title>
+      <itunes:episode>1</itunes:episode>
+      <podcast:episode>1</podcast:episode>
+      <itunes:title>Trailer</itunes:title>
+      <itunes:episodeType>trailer</itunes:episodeType>
+      <guid isPermaLink="false">5bd942b8-8b94-4019-b098-848f43334e59</guid>
+      <description>
+        <![CDATA[<p>Trailer - Episodes coming soon!</p><p>Learn the personal finance lessons you wish you’d been taught in high school! In this engaging weekly podcast, we tackle essential money topics to help you take control of your finances. We will try to land a few jokes as well.</p><p>https://fmoney.fm</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Trailer - Episodes coming soon!</p><p>Learn the personal finance lessons you wish you’d been taught in high school! In this engaging weekly podcast, we tackle essential money topics to help you take control of your finances. We will try to land a few jokes as well.</p><p>https://fmoney.fm</p>]]>
+      </content:encoded>
+      <pubDate>Mon, 25 Nov 2024 17:01:12 -0800</pubDate>
+      <author>Dan, Sarah, Jon</author>
+      <enclosure url="https://dasa.dev/fmoney/episodes/01.mp3" length="1598046" type="audio/mpeg"/>
+      <itunes:author>Dan, Sarah, Jon</itunes:author>
+      <itunes:duration>64</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Trailer - Episodes coming soon!</p><p>Learn the personal finance lessons you wish you’d been taught in high school! In this engaging weekly podcast, we tackle essential money topics to help you take control of your finances. We will try to land a few jokes as well.</p><p>https://fmoney.fm</p>]]>
+      </itunes:summary>
+      <itunes:keywords>personal finance, budgeting, investing, retirement, comedy</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Sarah Needs a Budget</title>
+      <itunes:episode>2</itunes:episode>
+      <podcast:episode>2</podcast:episode>
+      <itunes:title>Sarah Needs a Budget</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">a2ac3b32-3da6-4205-9ec8-1b98a67afbdc</guid>
+      <description>
+        <![CDATA[<ul><li><a href="https://fmoney.fm/about">About the Show</a></li><li><a href="https://docs.google.com/spreadsheets/d/1cS-jztQx5BsnFswWAX2k3MBWw3Hec_HZkU7roz7SxOo/edit?gid=0#gid=0">Link to Budget Template on Google Sheets</a><p></p></li></ul><p>This is a short one!  </p><p>On this episode, we walk through Sarah's copy of the budget template and see if there is any room to save money on her non negotiable expenses. Join us as we run through the numbers and have a few laughs.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<ul><li><a href="https://fmoney.fm/about">About the Show</a></li><li><a href="https://docs.google.com/spreadsheets/d/1cS-jztQx5BsnFswWAX2k3MBWw3Hec_HZkU7roz7SxOo/edit?gid=0#gid=0">Link to Budget Template on Google Sheets</a><p></p></li></ul><p>This is a short one!  </p><p>On this episode, we walk through Sarah's copy of the budget template and see if there is any room to save money on her non negotiable expenses. Join us as we run through the numbers and have a few laughs.</p>]]>
+      </content:encoded>
+      <pubDate>Mon, 09 Dec 2024 10:28:16 -0800</pubDate>
+      <author>Dan, Sarah, Jon</author>
+      <enclosure url="https://dasa.dev/fmoney/episodes/02.mp3" length="15091516" type="audio/mpeg"/>
+      <itunes:author>Dan, Sarah, Jon</itunes:author>
+      <itunes:duration>940</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<ul><li><a href="https://fmoney.fm/about">About the Show</a></li><li><a href="https://docs.google.com/spreadsheets/d/1cS-jztQx5BsnFswWAX2k3MBWw3Hec_HZkU7roz7SxOo/edit?gid=0#gid=0">Link to Budget Template on Google Sheets</a><p></p></li></ul><p>This is a short one!  </p><p>On this episode, we walk through Sarah's copy of the budget template and see if there is any room to save money on her non negotiable expenses. Join us as we run through the numbers and have a few laughs.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>personal finance, budgeting, investing, retirement, comedy</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Analyze Your Spending Habits (Mini)</title>
+      <itunes:episode>3</itunes:episode>
+      <podcast:episode>3</podcast:episode>
+      <itunes:title>Analyze Your Spending Habits (Mini)</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">c9dfdc09-6609-40d8-afcd-97dcd0b58491</guid>
+      <description>
+        <![CDATA[<p>In this week's mini episode, Dan runs solo.<br>He has a couple of follow up items from the previous episode and takes you through how to analyze your spending habits.</p><p>Follow along and create your budget with our template. Make a copy and fill in your budget.<br><a href="https://docs.google.com/spreadsheets/d/1T6Yv5iwg0ppTTJY_JMrrkzl25i0zwoOqQKLQV7LAEPs/edit?gid=0#gid=0">Google Sheet</a></p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>In this week's mini episode, Dan runs solo.<br>He has a couple of follow up items from the previous episode and takes you through how to analyze your spending habits.</p><p>Follow along and create your budget with our template. Make a copy and fill in your budget.<br><a href="https://docs.google.com/spreadsheets/d/1T6Yv5iwg0ppTTJY_JMrrkzl25i0zwoOqQKLQV7LAEPs/edit?gid=0#gid=0">Google Sheet</a></p>]]>
+      </content:encoded>
+      <pubDate>Mon, 16 Dec 2024 12:38:39 -0800</pubDate>
+      <author>Dan, Sarah, Jon</author>
+      <enclosure url="https://dasa.dev/fmoney/episodes/03.mp3" length="3845085" type="audio/mpeg"/>
+      <itunes:author>Dan, Sarah, Jon</itunes:author>
+      <itunes:duration>237</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>In this week's mini episode, Dan runs solo.<br>He has a couple of follow up items from the previous episode and takes you through how to analyze your spending habits.</p><p>Follow along and create your budget with our template. Make a copy and fill in your budget.<br><a href="https://docs.google.com/spreadsheets/d/1T6Yv5iwg0ppTTJY_JMrrkzl25i0zwoOqQKLQV7LAEPs/edit?gid=0#gid=0">Google Sheet</a></p>]]>
+      </itunes:summary>
+      <itunes:keywords>personal finance, budgeting, investing, retirement, comedy</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Sarah's Spending Habits a.k.a. The Redacted Number</title>
+      <itunes:episode>4</itunes:episode>
+      <podcast:episode>4</podcast:episode>
+      <itunes:title>Sarah's Spending Habits a.k.a. The Redacted Number</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">236acd09-06c8-4865-bf1d-9ab6ae5d045a</guid>
+      <description>
+        <![CDATA[<p>Join Sarah, Dan, and Jon as they walk through Sarah's spending habits (a.k.a. The Redacted Number).</p><p><br>Disclaimer:<br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Join Sarah, Dan, and Jon as they walk through Sarah's spending habits (a.k.a. The Redacted Number).</p><p><br>Disclaimer:<br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </content:encoded>
+      <pubDate>Mon, 23 Dec 2024 07:41:22 -0800</pubDate>
+      <author>Dan, Sarah, Jon</author>
+      <enclosure url="https://dasa.dev/fmoney/episodes/04.mp3" length="36254519" type="audio/mpeg"/>
+      <itunes:author>Dan, Sarah, Jon</itunes:author>
+      <itunes:duration>2262</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Join Sarah, Dan, and Jon as they walk through Sarah's spending habits (a.k.a. The Redacted Number).</p><p><br>Disclaimer:<br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>personal finance, budgeting, investing, retirement, comedy</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Track Dat Money</title>
+      <itunes:episode>5</itunes:episode>
+      <podcast:episode>5</podcast:episode>
+      <itunes:title>Track Dat Money</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">322242b9-8bec-40bd-a38a-4c276bb2b9a4</guid>
+      <description>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they talk about how to track your finances. Should you use an app or build your own? How often should you update your tracking? How do you look for trends?</p><p><a href="https://docs.google.com/spreadsheets/d/1MCg1FyzaAxKz91rWDgP31xoNJVGnRzRUjoYYwFdQcx8/edit?gid=0#gid=0">2025 Budget Template</a></p><p>Apps Mentioned (not sponsored):<br>- YNAB (You Need a Budget): https://www.ynab.com<br>- Rocket Money: https://www.rocketmoney.com</p><p><br>Disclaimer:  <br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they talk about how to track your finances. Should you use an app or build your own? How often should you update your tracking? How do you look for trends?</p><p><a href="https://docs.google.com/spreadsheets/d/1MCg1FyzaAxKz91rWDgP31xoNJVGnRzRUjoYYwFdQcx8/edit?gid=0#gid=0">2025 Budget Template</a></p><p>Apps Mentioned (not sponsored):<br>- YNAB (You Need a Budget): https://www.ynab.com<br>- Rocket Money: https://www.rocketmoney.com</p><p><br>Disclaimer:  <br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </content:encoded>
+      <pubDate>Mon, 30 Dec 2024 09:09:07 -0800</pubDate>
+      <author>Dan, Sarah, Jon</author>
+      <enclosure url="https://dasa.dev/fmoney/episodes/05.mp3" length="34303484" type="audio/mpeg"/>
+      <itunes:author>Dan, Sarah, Jon</itunes:author>
+      <itunes:duration>2141</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they talk about how to track your finances. Should you use an app or build your own? How often should you update your tracking? How do you look for trends?</p><p><a href="https://docs.google.com/spreadsheets/d/1MCg1FyzaAxKz91rWDgP31xoNJVGnRzRUjoYYwFdQcx8/edit?gid=0#gid=0">2025 Budget Template</a></p><p>Apps Mentioned (not sponsored):<br>- YNAB (You Need a Budget): https://www.ynab.com<br>- Rocket Money: https://www.rocketmoney.com</p><p><br>Disclaimer:  <br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>personal finance, budgeting, investing, retirement, comedy</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Savings 1 - Stuffing the Piggy Bank</title>
+      <itunes:episode>6</itunes:episode>
+      <podcast:episode>6</podcast:episode>
+      <itunes:title>Savings 1 - Stuffing the Piggy Bank</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">efeffb33-7861-41cb-a705-63ca983a2ee9</guid>
+      <description>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they discuss the 20/30/50 rule, emergency funds, high yield savings accounts, and money markets.</p><p>Disclaimer:  <br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they discuss the 20/30/50 rule, emergency funds, high yield savings accounts, and money markets.</p><p>Disclaimer:  <br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </content:encoded>
+      <pubDate>Mon, 06 Jan 2025 09:27:28 -0800</pubDate>
+      <author>Dan, Sarah, Jon</author>
+      <enclosure url="https://dasa.dev/fmoney/episodes/06.mp3" length="24868493" type="audio/mpeg"/>
+      <itunes:author>Dan, Sarah, Jon</itunes:author>
+      <itunes:duration>1551</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they discuss the 20/30/50 rule, emergency funds, high yield savings accounts, and money markets.</p><p>Disclaimer:  <br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>personal finance, budgeting, investing, retirement, comedy</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Savings 2 - The Cutting Room Floor</title>
+      <itunes:episode>7</itunes:episode>
+      <podcast:episode>7</podcast:episode>
+      <itunes:title>Savings 2 - The Cutting Room Floor</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">6f5ce2cb-765a-4f2e-8b2d-20346242c571</guid>
+      <description>
+        <![CDATA[<p>Join Sarah, Jon, and Dan to hear about everything that didn't make the savings episodes. We talk about CD ladders and T-bills.</p><p>Disclaimer:  <br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Join Sarah, Jon, and Dan to hear about everything that didn't make the savings episodes. We talk about CD ladders and T-bills.</p><p>Disclaimer:  <br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </content:encoded>
+      <pubDate>Mon, 13 Jan 2025 07:15:27 -0800</pubDate>
+      <author>Dan, Sarah, Jon</author>
+      <enclosure url="https://dasa.dev/fmoney/episodes/07.mp3" length="15631594" type="audio/mpeg"/>
+      <itunes:author>Dan, Sarah, Jon</itunes:author>
+      <itunes:duration>974</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Join Sarah, Jon, and Dan to hear about everything that didn't make the savings episodes. We talk about CD ladders and T-bills.</p><p>Disclaimer:  <br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>personal finance, budgeting, investing, retirement, comedy</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Investing 1 - Don't Commit Wire Fraud!</title>
+      <itunes:episode>8</itunes:episode>
+      <podcast:episode>8</podcast:episode>
+      <itunes:title>Investing 1 - Don't Commit Wire Fraud!</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">85bd7147-d36e-41f3-bffb-4d8b25224cd2</guid>
+      <description>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they lay the foundation for a conversation about investing. We discuss the types of accounts, different brokerage options, and types of securities you might buy.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they lay the foundation for a conversation about investing. We discuss the types of accounts, different brokerage options, and types of securities you might buy.</p>]]>
+      </content:encoded>
+      <pubDate>Mon, 20 Jan 2025 11:14:33 -0800</pubDate>
+      <author>Dan, Sarah, Jon</author>
+      <enclosure url="https://dasa.dev/fmoney/episodes/08.mp3" length="29914099" type="audio/mpeg"/>
+      <itunes:author>Dan, Sarah, Jon</itunes:author>
+      <itunes:duration>1866</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they lay the foundation for a conversation about investing. We discuss the types of accounts, different brokerage options, and types of securities you might buy.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>personal finance, budgeting, investing, retirement, comedy</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Investing 2 - Just Say No to Tax Evasion</title>
+      <itunes:episode>9</itunes:episode>
+      <podcast:episode>9</podcast:episode>
+      <itunes:title>Investing 2 - Just Say No to Tax Evasion</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">cce49101-ff37-44c7-9103-99b2f5ca5f6d</guid>
+      <description>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they tackle part 2 of investing. We talk about what you might want to invest your money in and different strategies you can research.</p><p>Disclaimer:<br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they tackle part 2 of investing. We talk about what you might want to invest your money in and different strategies you can research.</p><p>Disclaimer:<br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </content:encoded>
+      <pubDate>Mon, 27 Jan 2025 12:38:36 -0800</pubDate>
+      <author>Dan, Sarah, Jon</author>
+      <enclosure url="https://dasa.dev/fmoney/episodes/09.mp3" length="29307225" type="audio/mpeg"/>
+      <itunes:author>Dan, Sarah, Jon</itunes:author>
+      <itunes:duration>1828</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Join Sarah, Jon, and Dan as they tackle part 2 of investing. We talk about what you might want to invest your money in and different strategies you can research.</p><p>Disclaimer:<br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>personal finance, budgeting, investing, retirement, comedy</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Trading and Gambling</title>
+      <itunes:episode>10</itunes:episode>
+      <podcast:episode>10</podcast:episode>
+      <itunes:title>Trading and Gambling</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">97d1202a-609b-400c-b5c5-726de8967bc8</guid>
+      <description>
+        <![CDATA[<p>Join Sarah, Jon, and Dan on this grab bag episode where we discuss trading and share gambling stories.</p><p>Disclaimer:<br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Join Sarah, Jon, and Dan on this grab bag episode where we discuss trading and share gambling stories.</p><p>Disclaimer:<br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </content:encoded>
+      <pubDate>Mon, 03 Feb 2025 08:17:07 -0800</pubDate>
+      <author>Dan, Sarah, Jon</author>
+      <enclosure url="https://dasa.dev/fmoney/episodes/10.mp3" length="44180702" type="audio/mpeg"/>
+      <itunes:author>Dan, Sarah, Jon</itunes:author>
+      <itunes:duration>2758</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Join Sarah, Jon, and Dan on this grab bag episode where we discuss trading and share gambling stories.</p><p>Disclaimer:<br>The information provided in this podcast is for educational and informational purposes only and should not be construed as financial advice. The content is based on personal opinions and experiences and may not be suitable for your individual financial situation. We recommend consulting with a qualified financial advisor or conducting your own research before making any financial decisions. The hosts and guests of this podcast are not liable for any losses or damages that may arise from following the information presented. All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>personal finance, budgeting, investing, retirement, comedy</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+  </channel>
+</rss>

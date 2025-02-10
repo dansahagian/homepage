@@ -48,6 +48,14 @@ def work(request):
 
 
 @require_GET
+def fmoney(request):
+    log_request(request)
+
+    context = get_theme_context(request)
+    return render(request, "fmoney.html", context=context)
+
+
+@require_GET
 def theme(request):
     current_theme = request.session.get("theme", None)
     referer = request.META.get("HTTP_REFERER")

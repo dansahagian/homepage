@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+# rsync -a ./fmoney/episodes dan@linode:/srv/www/fmoney
+rsync -a ./fmoney/coverart.png dan@linode:/srv/www/fmoney
+rsync -a ./fmoney/fmoney.xml dan@linode:/srv/www/fmoney
+
