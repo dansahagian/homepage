@@ -17,8 +17,13 @@
                     Dan Sahagian
                 </div>
                 <div class="titles">
-                    Husband | Founder | Nerd<br>
+                    Husband | Coder | Nerd<br>
                     New Englander in California<br>
+                </div>
+                <div class="links">
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                    <a href="{% url 'work' %}">Work</a>
                 </div>
             </div>
             <div class="headshot-flex">
@@ -30,8 +35,8 @@
         </div>
         <div class="section">
             <p>
-                I'm a founder at Sortie, a technology company building software for FAA Part 135
-                Operators. I'm also a software engineer who is interested in finance and privacy.
+                I'm a founder at Sortie. We are a technology company building software for FAA Part
+                135 Operators. I'm also interested in privacy and finance.
             </p>
             <p>
                 Previously, I was at dbt Labs, Spotify, and Podsights. You can find more details
@@ -43,7 +48,7 @@
             </p>
         </div>
         <div class="section">
-            <h3>Projects</h3>
+            <h3 id="projects">Projects</h3>
             <p>
                 <a href="{% url 'fmoney' %}">F Money</a>
                 is a funny podcast about personal finance.
@@ -54,7 +59,7 @@
             </p>
         </div>
         <div class="section">
-            <h3>Contact</h3>
+            <h3 id="contact">Contact</h3>
             <p>
                 Email: hello [at] <a href="{% url 'home' %}">dasa.dev</a><br>
                 Github: <a href="https://github.com/dansahagian">@dansahagian</a><br>

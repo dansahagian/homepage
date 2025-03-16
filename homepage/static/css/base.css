@@ -25,6 +25,7 @@ html {
 	background: var(--background);
 	color: var(--body-color);
 	text-align: center;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -75,8 +76,8 @@ strong {
 }
 
 .links {
-	padding-top: 2.0em;
-	line-height: 3.0em;
+	padding-top: 1.0em;
+	line-height: 2.0em;
 	text-align: center;
 }
 
@@ -131,7 +132,18 @@ strong {
 	}
 
 	.coverart img {
-	max-width: 30em;
+		max-width: 30em;
+	}
+
+	.links {
+		padding-top: 1.0em;
+		line-height: 2.0em;
+		text-align: left;
 }
+
+	.links a {
+		padding-left: 0;
+		padding-right: 1.5em;
+	}
 
 }
