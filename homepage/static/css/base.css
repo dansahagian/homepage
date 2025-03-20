@@ -55,7 +55,7 @@ strong {
 }
 
 .headshot img {
-	max-width: 11em;
+	max-width: 9em;
 	display: inline-block;
 	border-radius: 9999px;
 }
@@ -75,9 +75,12 @@ strong {
 	text-align: left;
 }
 
+.contact {
+	padding-top: 1.0em;
+}
+
 .links {
 	padding-top: 1.0em;
-	line-height: 2.0em;
 	text-align: center;
 }
 
@@ -113,7 +116,7 @@ strong {
 	.summary-flex {
 		flex-basis: 60%;
 		text-align: left;
-		padding-top: 3.0em;
+		padding-top: 1.5em;
 		padding-right: 2.0em;
 		white-space: nowrap;
 	}
@@ -124,7 +127,7 @@ strong {
 	}
 
 	.headshot img {
-		max-width: 13em;
+		max-width: 11em;
 	}
 
 	.headshot-flex {
@@ -136,14 +139,10 @@ strong {
 	}
 
 	.links {
-		padding-top: 1.0em;
-		line-height: 2.0em;
 		text-align: left;
-}
+	}
 
 	.links a {
 		padding-left: 0;
-		padding-right: 1.5em;
 	}
-
 }

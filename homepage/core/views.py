@@ -48,11 +48,26 @@ def work(request):
 
 
 @require_GET
+def projects(request):
+    log_request(request)
+
+    context = get_theme_context(request)
+    return render(request, "projects.html", context=context)
+
+
+@require_GET
 def fmoney(request):
     log_request(request)
 
     context = get_theme_context(request)
     return render(request, "fmoney.html", context=context)
+
+
+@require_GET
+def signal(request):
+    link = "https://signal.me/#eu/RMYEpKM0gmXlrEspw-ntI8ZN3PGAYcz7G07Aa8aH7U87TIMmVSRIfYVa-7JA_Agf"
+    log_request(request)
+    return redirect(link)
 
 
 @require_GET
